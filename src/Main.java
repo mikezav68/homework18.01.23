@@ -2,10 +2,6 @@ public class Main {
     public static void main(String[] args) {
         tasks();
         task4();
-        task5();
-        task6();
-        task7();
-        task8();
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
@@ -51,21 +47,5 @@ public class Main {
             System.out.print(reverseFullName[i]);
         }
         System.out.println();
-    }
-    public static void task5 () {
-        System.out.println("Задача 5");
-
-    }
-    public static void task6 () {
-        System.out.println("Задача 6");
-
-    }
-    public static void task7 () {
-        System.out.println("Задача 7");
-
-    }
-    public static void task8 () {
-        System.out.println("Задача 8");
-
     }
 }
